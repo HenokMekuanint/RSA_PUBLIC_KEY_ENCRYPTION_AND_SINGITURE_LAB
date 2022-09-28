@@ -155,8 +155,45 @@ The public/private keys used in this task are the same as the ones used in Task 
                                     S = 643D6F34902D9C7EC90CB0B2BCA36C47FA37165C0005CAB026C0542CBDB6802F 
                                     e = 010001 (this hex value equals to decimal 65537) 
                                     n = AE1CD4DC432798D933779FBD46C6E1247F0CF1233595113AA51B450F18116115
+
+![Picture7](https://user-images.githubusercontent.com/90408697/192744871-f3dc7d37-dd1a-48ef-ae85-d47e291c449a.png)
+
+
+                                    3.6 Task 6: Manually Verifying an X.509 Certificate
+
+In this task, we will manually verify an X.509 certificate using our program. An X.509 contains data about a public key and an issuer’s signature on the data. We will download a real X.509 certificate from a web server, get its issuer’s public key, and then use this public key to verify the signature on the certificate.
+
+
+                                    Step 1: Download a certificate from a real web server. We use the www.example.org server in this document. Students should choose a different web server that has a different certificate than the one used in this document. 
+
+                                    openssl s_client -connect www.twitter.com:443 -showcerts
                                     
+                                    The Certeficate we are going to use will be www.twitter.com websited certeficate.
                                     
+            ![Picture8](https://user-images.githubusercontent.com/90408697/192744897-04e056c7-fdfa-4b4f-bd36-97322755cad2.png)
+            ![Picture9](https://user-images.githubusercontent.com/90408697/192744919-a55b8d1f-e261-4565-bbae-4d73e54b58a7.png)
+            ![Picture10](https://user-images.githubusercontent.com/90408697/192744968-c5aac3e9-0231-4271-a9c8-aba6a0ed03f9.png)
+            ![Picture11](https://user-images.githubusercontent.com/90408697/192744981-74089b37-c427-4b03-acde-4c910342b998.png)
+            
+            Step2: Extract the public key (e,n) issuer certeficate
+            
+       ![Picture13](https://user-images.githubusercontent.com/90408697/192745002-427ecc79-fe0f-4468-9b99-de492d979b1e.png)
+
+                                    
+                       Step3: Extracting The exponent
+           
+           
+            ![Picture14](https://user-images.githubusercontent.com/90408697/192745007-3544249a-145c-455c-b4f8-ebd6178e9984.png)
+            ![Picture15](https://user-images.githubusercontent.com/90408697/192745026-0a207bb4-50a9-4596-b7c0-dfb084d09456.png)
+            ![Picture16](https://user-images.githubusercontent.com/90408697/192745032-f0e579ca-57d0-43b6-9b22-0b966b453d35.png)
+            
+            Step4: extracting the hash value
+            
+            ![Picture17](https://user-images.githubusercontent.com/90408697/192745036-e67c4357-056c-4fc4-a87f-f37b4ce8a3b0.png)
+            ![Picture18](https://user-images.githubusercontent.com/90408697/192745061-6cb280cb-031a-40a0-9d5a-92396e6d9747.png)
+            ![Picture19](https://user-images.githubusercontent.com/90408697/192745077-39c483e9-24d1-4501-a57c-e7fe98deb11e.png)
+
+
 
 
 
