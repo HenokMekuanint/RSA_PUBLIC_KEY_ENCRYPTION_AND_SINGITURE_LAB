@@ -120,7 +120,7 @@ The public/private keys used in this task are the same as the ones used in Task 
                           
                           Password is dees
                           
-              ![Picture5](https://user-images.githubusercontent.com/90408697/192744813-ea0c95d4-612b-42ce-b64c-bec88c08afd2.png)
+   ![Picture5](https://user-images.githubusercontent.com/90408697/192744813-ea0c95d4-612b-42ce-b64c-bec88c08afd2.png)
               
                                       3.4 Task 4: Signing a Message
         
@@ -131,7 +131,7 @@ The public/private keys used in this task are the same as the ones used in Task 
                                             
                                             Please make a slight change to the message M, such as changing $2000 to $3000, and sign the modified message. Compare both signatures and describe what you observe.
                                             
-         ![Picture6](https://user-images.githubusercontent.com/90408697/192744823-4006fdee-462a-47fa-b532-2bf95b2b0e3d.png)
+   ![Picture6](https://user-images.githubusercontent.com/90408697/192744823-4006fdee-462a-47fa-b532-2bf95b2b0e3d.png)
          
                                      The hex value for both message is the same. 
                                      
@@ -170,28 +170,28 @@ In this task, we will manually verify an X.509 certificate using our program. An
                                     
                                     The Certeficate we are going to use will be www.twitter.com websited certeficate.
                                     
-            ![Picture8](https://user-images.githubusercontent.com/90408697/192744897-04e056c7-fdfa-4b4f-bd36-97322755cad2.png)
-            ![Picture9](https://user-images.githubusercontent.com/90408697/192744919-a55b8d1f-e261-4565-bbae-4d73e54b58a7.png)
-            ![Picture10](https://user-images.githubusercontent.com/90408697/192744968-c5aac3e9-0231-4271-a9c8-aba6a0ed03f9.png)
-            ![Picture11](https://user-images.githubusercontent.com/90408697/192744981-74089b37-c427-4b03-acde-4c910342b998.png)
+![Picture8](https://user-images.githubusercontent.com/90408697/192744897-04e056c7-fdfa-4b4f-bd36-97322755cad2.png)
+![Picture9](https://user-images.githubusercontent.com/90408697/192744919-a55b8d1f-e261-4565-bbae-4d73e54b58a7.png)
+ ![Picture10](https://user-images.githubusercontent.com/90408697/192744968-c5aac3e9-0231-4271-a9c8-aba6a0ed03f9.png)
+![Picture11](https://user-images.githubusercontent.com/90408697/192744981-74089b37-c427-4b03-acde-4c910342b998.png)
             
             Step2: Extract the public key (e,n) issuer certeficate
             
-       ![Picture13](https://user-images.githubusercontent.com/90408697/192745002-427ecc79-fe0f-4468-9b99-de492d979b1e.png)
+![Picture13](https://user-images.githubusercontent.com/90408697/192745002-427ecc79-fe0f-4468-9b99-de492d979b1e.png)
 
                                     
                        Step3: Extracting The exponent
            
            
-            ![Picture14](https://user-images.githubusercontent.com/90408697/192745007-3544249a-145c-455c-b4f8-ebd6178e9984.png)
-            ![Picture15](https://user-images.githubusercontent.com/90408697/192745026-0a207bb4-50a9-4596-b7c0-dfb084d09456.png)
-            ![Picture16](https://user-images.githubusercontent.com/90408697/192745032-f0e579ca-57d0-43b6-9b22-0b966b453d35.png)
+ ![Picture14](https://user-images.githubusercontent.com/90408697/192745007-3544249a-145c-455c-b4f8-ebd6178e9984.png)
+![Picture15](https://user-images.githubusercontent.com/90408697/192745026-0a207bb4-50a9-4596-b7c0-dfb084d09456.png)
+![Picture16](https://user-images.githubusercontent.com/90408697/192745032-f0e579ca-57d0-43b6-9b22-0b966b453d35.png)
             
             Step4: extracting the hash value
             
-            ![Picture17](https://user-images.githubusercontent.com/90408697/192745036-e67c4357-056c-4fc4-a87f-f37b4ce8a3b0.png)
-            ![Picture18](https://user-images.githubusercontent.com/90408697/192745061-6cb280cb-031a-40a0-9d5a-92396e6d9747.png)
-            ![Picture19](https://user-images.githubusercontent.com/90408697/192745077-39c483e9-24d1-4501-a57c-e7fe98deb11e.png)
+ ![Picture17](https://user-images.githubusercontent.com/90408697/192745036-e67c4357-056c-4fc4-a87f-f37b4ce8a3b0.png)
+  ![Picture18](https://user-images.githubusercontent.com/90408697/192745061-6cb280cb-031a-40a0-9d5a-92396e6d9747.png)
+  ![Picture19](https://user-images.githubusercontent.com/90408697/192745077-39c483e9-24d1-4501-a57c-e7fe98deb11e.png)
 
 
 
